@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test89">
+    <classes>
+      <class name="revice.NewTest1">
+      <methods>
+      <include name="a"/>
+      <include name="b"/>
+      </methods>
+      </class>
+      <class name="revice.NewTest2">
+      <methods>
+      <exclude name="g"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test89 -->
+</suite> <!-- Suite -->
